@@ -1,0 +1,42 @@
+*{
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+.section-title{
+  padding: 0px 0px 10px 0px;
+  margin: 10px 0px;
+  color:rgb(49, 57, 60)
+
+}
+
+.skills-container,
+.about-container,
+.projects-container,
+.experience-container{
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
+
+.header{
+  background-color: rgb(240, 240, 240,0.7);
+  padding-bottom: 20px;
+}
+
+.footer{
+  background-color: rgb(240, 240, 240,0.7);
+  padding: 20px 20px;
+  margin-top: 40px;
+}
+
+
+.project-background{
+  background-color: rgb(240, 240, 240,0.4);
+  padding-bottom: 50px;
+}

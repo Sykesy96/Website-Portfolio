@@ -1,0 +1,37 @@
+*{
+  margin: 0px 0px;
+}
+
+.card-container{
+  width:500px;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.logo-company-container{
+  display:flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+}
+
+.logo-container{
+  display: flex;
+  justify-content: center;
+  padding: 3px 3px;
+}
+.logo{
+  width: 30px;
+  height: 30px;
+  padding: 10px 10px;
+}
+
+.company-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.company{
+  font-weight: bold;
+}
+
